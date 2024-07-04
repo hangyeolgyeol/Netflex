@@ -290,7 +290,7 @@ function load_item(cate) { // cate는 그냥 걸어본 것. 그래도 한번 사
             }
   
             item +=  
-                  `<img src="../img/NETFLEX/${EL_ARR[cate]}/${ITEM_LIST[cate][j].src}" alt="">
+                  `<img src="./img/NETFLEX/${EL_ARR[cate]}/${ITEM_LIST[cate][j].src}" alt="">
                 </li>`
 
         $(`#${EL_ARR[cate]} ul.item_box`).append(item);

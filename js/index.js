@@ -276,11 +276,11 @@ $(document).ready(function () {
     $('body').append(modal);
     
     $('.modal_banner_box').css({
-    background: `linear-gradient(to top, #141414 1%, rgba(0, 0, 0, 0) 15%), url(../img/NETFLEX/${item_parent}/${ITEM_LIST[item_parent_index][item_index].banner_img}) no-repeat center / cover`
+    background: `linear-gradient(to top, #141414 1%, rgba(0, 0, 0, 0) 15%), url(./img/NETFLEX/${item_parent}/${ITEM_LIST[item_parent_index][item_index].banner_img}) no-repeat center / cover`
     })
     $('.modal').css({ display: 'block'}); // 순서 중요
     
-    console.log(`linear-gradient(to top, #141414 1%, rgba(0, 0, 0, 0) 15%), url(../img/NETFLEX/${item_parent}/${ITEM_LIST[item_parent_index][item_index].banner_img}) no-repeat center / cover`)
+    console.log(`linear-gradient(to top, #141414 1%, rgba(0, 0, 0, 0) 15%), url(./img/NETFLEX/${item_parent}/${ITEM_LIST[item_parent_index][item_index].banner_img}) no-repeat center / cover`)
   }) // $('.item').click의 끝
 
   // modal 안의 X(modal_close)를 눌렀을 때 modal 화면 지우기
